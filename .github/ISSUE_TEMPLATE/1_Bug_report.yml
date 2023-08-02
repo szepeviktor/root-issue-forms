@@ -41,6 +41,5 @@ body:
         label: "Steps To Reproduce"
         description: "Description example"
         placeholder: "Placeholder example"
-        value: "Value example"
     validations:
         required: true
