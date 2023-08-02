@@ -30,14 +30,17 @@ body:
     validations:
         required: false
 -
-    type: "markdown"
+    type: "textarea"
     attributes:
-        value: "Description"
+        label: "Description"
     validations:
         required: true
 -
-    type: "markdown"
+    type: "textarea"
     attributes:
-        value: "Steps To Reproduce"
+        label: "Steps To Reproduce"
+        description: "Description example"
+        placeholder: "Placeholder example"
+        value: "Value example"
     validations:
         required: true
