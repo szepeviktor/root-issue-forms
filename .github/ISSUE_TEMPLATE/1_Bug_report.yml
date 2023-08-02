@@ -32,12 +32,12 @@ body:
 -
     type: "markdown"
     attributes:
-        label: "Description"
+        value: "Description"
     validations:
         required: true
 -
     type: "markdown"
     attributes:
-        label: "Steps To Reproduce"
+        value: "Steps To Reproduce"
     validations:
         required: true
