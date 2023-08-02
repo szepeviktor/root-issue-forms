@@ -13,16 +13,22 @@ body:
     attributes:
         label: "Laravel version"
         placeholder: "#.#.#"
+    validations:
+        required: false
 -
     type: "input"
     attributes:
         label: "PHP version"
         placeholder: "#.#.#"
+    validations:
+        required: false
 -
     type: "input"
     attributes:
         label: "Database engine & version"
         placeholder: "#.#"
+    validations:
+        required: false
 -
     type: "markdown"
     attributes:
