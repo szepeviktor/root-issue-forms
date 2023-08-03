@@ -1,0 +1,46 @@
+name: "Emotional crisis"
+description: "You need to tell about it"
+body:
+-
+    type: "input"
+    attributes:
+        label: "Tell us about your feelings"
+        description: "Be personsal!"
+    validations:
+        required: true
+-
+    type: "checkboxes"
+    attributes:
+        label: "I am the bearer of bad news"
+        options:
+        -
+            label: "Yes"
+            required: false
+        -
+            label: "No"
+            required: false
+-
+    type: "input"
+    attributes:
+        label: "Your favorite number"
+    validations:
+        required: false
+-
+    type: "input"
+    attributes:
+        label: "Your favorite color"
+    validations:
+        required: false
+-
+    type: "textarea"
+    attributes:
+        label: "Your hopes"
+    validations:
+        required: true
+-
+    type: "textarea"
+    attributes:
+        label: "What should we do to make feel better?"
+        placeholder: "Anything that comes to your mind"
+    validations:
+        required: false
