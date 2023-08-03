@@ -19,19 +19,19 @@ body:
 -
     type: "input"
     attributes:
-        label: "Your favorite number"
+        label: "My favorite number"
     validations:
         required: false
 -
     type: "input"
     attributes:
-        label: "Your favorite color"
+        label: "My favorite color"
     validations:
         required: false
 -
     type: "textarea"
     attributes:
-        label: "Your hopes"
+        label: "My hopes"
     validations:
         required: true
 -
